@@ -2,4 +2,7 @@
     <string name="app_name">GoogleSearch</string>
     <string name="enter_address">Enter Address</string>
     <string name="next">Next</string>
+    <string name="incorrect_request">Incorrect Request</string>
+    <string name="try_again">Try Again</string>
+    <string name="please_fill_all_fields">Please fill all fields</string>
 </resources>

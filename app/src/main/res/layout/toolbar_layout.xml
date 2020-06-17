@@ -2,7 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="60dp"
-    android:background="#777"
+    android:background="#888"
     android:orientation="horizontal">
 
     <ImageButton
@@ -20,7 +20,7 @@
         android:layout_gravity="center_vertical|center"
         android:id="@+id/mainText"
         android:textColor="#fff"
-        android:text="Reality Feed"
+        android:text="Address"
         android:textSize="25sp"
         android:gravity="center"
         android:layout_width="230dp"
