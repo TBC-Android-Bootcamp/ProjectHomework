@@ -33,9 +33,6 @@ class AddressActivity : AppCompatActivity() {
         //    startActivity(intent)
         //}
 
-        //val parsedJson = Gson().fromJson(jsonString, CountryModel::class.java)
-
-        //val address = intent.getStringExtra("address")
         init()
     }
 
@@ -44,15 +41,14 @@ class AddressActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         tvTitle.text = "Address"
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
-
+        tvCountry.text = intent.getStringExtra("countryName")
         getCountries()
-
         tvStreetAddress.setOnClickListener {
-            // Nothing here yet
+            //
         }
 
         tvCountry.setOnClickListener {
-            // Nothing here yet
+            chooseCountry()
         }
     }
 
@@ -89,8 +85,8 @@ class AddressActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if(resultCode == Activity.RESULT_OK){
             if(requestCode == CHOOSE_COUNTRY){
-                // more comming soon
-                print("")
+                // some code will be here
+
             }
         }
         super.onActivityResult(requestCode, resultCode, data)
