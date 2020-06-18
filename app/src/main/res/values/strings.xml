@@ -5,4 +5,5 @@
     <string name="incorrect_request">Incorrect Request</string>
     <string name="try_again">Try Again</string>
     <string name="please_fill_all_fields">Please fill all fields</string>
+    <string name="country">Country</string>
 </resources>

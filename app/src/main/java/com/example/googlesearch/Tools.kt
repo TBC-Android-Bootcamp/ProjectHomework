@@ -16,7 +16,7 @@ object Tools {
 
         val params: ViewGroup.LayoutParams = dialog.window!!.attributes
         params.width = ViewGroup.LayoutParams.MATCH_PARENT
-        params.height = ViewGroup.LayoutParams.MATCH_PARENT
+        params.height = ViewGroup.LayoutParams.WRAP_CONTENT
         dialog.window!!.attributes = params as WindowManager.LayoutParams
 
         dialog.tvDialogTitle.text = title
